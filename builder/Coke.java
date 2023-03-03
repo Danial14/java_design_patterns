@@ -1,0 +1,14 @@
+package builder;
+
+public class Coke extends Colddrink{
+    @Override
+    public double price() {
+        // TODO Auto-generated method stub
+        return 30.0;
+    }
+    @Override
+    public String name() {
+        // TODO Auto-generated method stub
+        return "Coke";
+    }    
+}
