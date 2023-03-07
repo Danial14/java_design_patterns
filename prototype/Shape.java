@@ -9,6 +9,7 @@ public abstract class Shape implements Cloneable {
         Object clone = null;
         try{
             clone = super.clone();
+            System.out.println("Shape cloned");
         }
         catch(CloneNotSupportedException e){
             System.out.println(e.getMessage());
